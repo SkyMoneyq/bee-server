@@ -6,7 +6,7 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 MERCHANT_WALLET = "UQB0FWkSh3INjx13_XW6o4ZiET3HPVDIBSJxGi6iEemTaaub"
-PRICE_TON = 10
+PRICE_TON = 2.2
 TONCENTER_API = "c2c00ad475e8146b7fd29b88a3dbbad93b864a8b1c3831fec4881284753df48b"
 
 orders = {}
